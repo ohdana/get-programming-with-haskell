@@ -1,4 +1,3 @@
-myTake _ [] = []
 myTake n myList = myTakeHelper n myList []
 
 myTakeHelper _ [] accumulator = accumulator
